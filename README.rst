@@ -29,4 +29,3 @@ Example usage::
       print '%s...' % state
   body = client.response.read()
   print "Retrieved %d bytes, beginning:\n%s..." % (len(body), body[0:50])
-
